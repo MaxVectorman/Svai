@@ -116,7 +116,7 @@ body {
   font-size: 35px;
   color: #2b398d;
   line-height: 40px;
-  width: 700px;
+  width: 660px;
   margin-top: 50px;
   margin-bottom: 30px; }
 
@@ -140,6 +140,8 @@ body {
   display: -ms-flexbox;
   display: flex;
   margin-top: 20px; }
+  .img-box {
+    margin: 40px 0; }
   .img-variety {
     margin-right: 20px; }
     .img-variety__description {
@@ -149,18 +151,17 @@ body {
   .img-item {
     background: #000;
     width: 450px;
-    height: 300px; }
-  .img-item:first-child {
+    height: 300px;
     margin-right: 20px; }
 
 .list {
   margin-top: 20px;
-  margin-left: 110px; }
+  margin-left: 20px; }
   .list-order {
-    margin-left: 100px; }
+    margin-left: 10px; }
   .list-marker {
     color: #2b398d;
-    font-size: 16px;
+    font-size: 13px;
     font-weight: 500;
     line-height: 25px;
     width: 580px;
