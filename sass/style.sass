@@ -1,0 +1,77 @@
+@import mixins
+@import media
+@import sprites
+@import normalize
+
+$font-family: Montserrat
+
+body
+	color: #333
+
+.title
+	display: flex
+	font-size: 35px
+	color: #2b398d
+	line-height: 40px
+	width: 700px
+	margin-top: 50px
+	margin-bottom: 30px
+	
+.text
+	font-size: 16px
+	text-indent: 1.5em
+	text-align: justify
+	margin-top: 20px
+	line-height: 25px
+	width: 900px
+
+.text.last
+	margin-bottom: 100px
+
+.italic
+	font-size: 20px
+	font-style: italic
+	color: #2b398d
+	margin-top: 60px
+
+.img
+	display: flex
+	margin-top: 20px
+	&-item
+		background: #000
+		width: 450px
+		height: 300px
+	&-item:first-child
+		margin-right: 20px
+
+.list
+	margin-top: 20px
+	margin-left: 20px
+	&-order
+		margin-left: 100px
+	&-marker
+		color: #2b398d
+		font-size: 25px
+		font-weight: 500
+		line-height: 25px
+		width: 580px
+		margin-top: 20px
+	&-item
+		font-size: 18px
+		color: #333
+		margin-top: 15px
+
+.list-marker.last
+	margin-bottom: 50px
+
+.list-marker.description
+	width: 200px
+	margin-top: 5px
+	margin-bottom: 20px
+
+.img-item.variety
+	width: 300px
+	height: 200px
+
+.list-marker.description.last
+	margin-bottom: 60px

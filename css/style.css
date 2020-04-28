@@ -1,0 +1,184 @@
+/*   Author:  Pit Orel
+ *   Website: https://vk.com/html_css_verstka_saitov
+ *   Github:  https://github.com/pit6262
+ *   Skype:   hostings1
+ *
+ */
+/* NORMALIZE */
+/* ================================================ */
+html, body, div, span, applet, main, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, main, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: Montserrat;
+  line-height: 1;
+  background-color: #ffffff;
+  height: 100%;
+  position: relative;
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after {
+  content: "";
+  content: none; }
+
+q:before, q:after {
+  content: "";
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-width: 0px;
+  padding: 0px;
+  margin: 0px; }
+
+html {
+  height: 100%;
+  -webkit-text-size-adjust: none;
+  -ms-text-size-adjust: none; }
+
+input, textarea {
+  color: #333;
+  outline: none;
+  border-radius: 0;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  -webkit-appearance: none; }
+
+input[type="button"], input[type="submit"] {
+  cursor: pointer;
+  -webkit-appearance: none;
+  outline: none; }
+
+input[type="search"] {
+  -webkit-appearance: none; }
+
+::-ms-clear {
+  width: 0;
+  height: 0; }
+
+button {
+  cursor: pointer;
+  -webkit-appearance: none;
+  outline: none; }
+
+td, form {
+  margin: 0px;
+  padding: 0px; }
+
+a {
+  color: #000100;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  text-decoration: none;
+  outline: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+  *:before, *:after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; }
+
+.clearfix:after, .wrapper:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden; }
+
+.container {
+  width: 1000px;
+  margin: 0 auto; }
+
+body {
+  color: #333; }
+
+.title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 35px;
+  color: #2b398d;
+  line-height: 40px;
+  width: 700px;
+  margin-top: 50px;
+  margin-bottom: 30px; }
+
+.text {
+  font-size: 16px;
+  text-indent: 1.5em;
+  text-align: justify;
+  margin-top: 20px;
+  line-height: 25px;
+  width: 900px; }
+
+.text.last {
+  margin-bottom: 100px; }
+
+.italic {
+  font-size: 20px;
+  font-style: italic;
+  color: #2b398d;
+  margin-top: 60px; }
+
+.img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20px; }
+  .img-item {
+    background: #000;
+    width: 450px;
+    height: 300px; }
+  .img-item:first-child {
+    margin-right: 20px; }
+
+.list {
+  margin-top: 20px;
+  margin-left: 20px; }
+  .list-order {
+    margin-left: 100px; }
+  .list-marker {
+    color: #2b398d;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 25px;
+    width: 580px;
+    margin-top: 20px; }
+  .list-item {
+    font-size: 18px;
+    color: #333;
+    margin-top: 15px; }
+
+.list-marker.last {
+  margin-bottom: 50px; }
+
+.list-marker.description {
+  width: 200px;
+  margin-top: 5px;
+  margin-bottom: 20px; }
+
+.img-item.variety {
+  width: 300px;
+  height: 200px; }
+
+.list-marker.description.last {
+  margin-bottom: 60px; }
+
+/*# sourceMappingURL=style.css.map */
